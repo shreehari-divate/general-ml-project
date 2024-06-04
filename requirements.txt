@@ -2,4 +2,4 @@ pandas
 numpy 
 seaborn
 
--e .
+-e . #It tells pip to install current package in editable mode
