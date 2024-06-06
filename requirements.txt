@@ -1,5 +1,8 @@
 pandas
 numpy 
 seaborn
-
--e . #It tells pip to install current package in editable mode
+matplotlib
+scikit-learn
+catboost
+xgboost
+#-e . #It tells pip to install current package in editable mode

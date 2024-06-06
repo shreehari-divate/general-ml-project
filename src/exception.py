@@ -1,7 +1,7 @@
 
 
 import sys
-import logging 
+from src.logger import logging
 
 '''
  The below function takes two arguments one for error message and a sys object that contains info about the error
