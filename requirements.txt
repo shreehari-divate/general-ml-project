@@ -5,4 +5,5 @@ matplotlib
 scikit-learn
 catboost
 xgboost
+dill
 #-e . #It tells pip to install current package in editable mode
