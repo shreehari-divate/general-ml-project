@@ -39,9 +39,9 @@ class ModelTrainer:
         try:
             logging.info("Splitting the trainig and test input data")
             X_train,y_train,X_test,y_test = (
-                train_array[:,:-1],
-                train_array[:,-1],
-                test_array[:,:-1],
+                train_array[:,:-1], #this takes all the rows and cols except the last col
+                train_array[:,-1],  #this takes all the rows but only last col
+                test_array[:,:-1],  
                 test_array[:,-1]
             )
             models={

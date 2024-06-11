@@ -44,3 +44,11 @@ def evaluate_model(X_train,y_train,X_test,y_test,models,param):
         return report
     except Exception as e:
         raise CustomException(e,sys)    
+    
+def load_object(file_path): #opening and reading a pkl file 
+    try:
+        with open(file_path,"rb") as file_obj:
+            return dill.load(file_obj)
+            
+    except CustomException as e:
+        raise CustomException(e,sys)    
